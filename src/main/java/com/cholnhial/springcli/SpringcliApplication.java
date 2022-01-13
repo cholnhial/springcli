@@ -1,0 +1,13 @@
+package com.cholnhial.springcli;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringcliApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringcliApplication.class, args);
+	}
+
+}
