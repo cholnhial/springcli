@@ -1,0 +1,12 @@
+version: '3'
+services:
+  db:
+    image: mysql:5.7
+    container_name: springcli-mysql
+    environment:
+      MYSQL_DATABASE: springcli
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_HOST: '%'
+    ports:
+      - "3310:3306"
+    restart: always

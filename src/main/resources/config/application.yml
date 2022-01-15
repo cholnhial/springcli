@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    database: MYSQL
+    hibernate:
+      ddl-auto: validate
+  datasource:
+    url: jdbc:mysql://localhost:3310/springcli?useTimezone=true&serverTimezone=UTC
+    username: root
+    password: root
+  sql:
+    init:
+      mode: always

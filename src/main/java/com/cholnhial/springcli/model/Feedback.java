@@ -1,9 +1,6 @@
 package com.cholnhial.springcli.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 import org.hibernate.Hibernate;
 import org.hibernate.annotations.Type;
 
@@ -15,6 +12,8 @@ import java.util.Objects;
 @Getter
 @Setter
 @Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class Feedback {
 
     @Id
